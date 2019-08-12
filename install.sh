@@ -2,7 +2,7 @@
 
 apt install software-properties-common -y
 add-apt-repository ppa:wireguard/wireguard -y
-apt update
+#apt update
 apt install wireguard-dkms wireguard-tools qrencode -y
 
 

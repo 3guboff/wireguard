@@ -83,4 +83,4 @@ echo "# Display $USERNAME.conf"
 cat ./$USERNAME.conf
 
 # Save QR config to png file
-#qrencode -t png -o ./$USERNAME.png < ./$USERNAME.conf
+qrencode -t png -o ./$USERNAME.png < ./$USERNAME.conf
