@@ -5,7 +5,7 @@ Scripts automate the installation and use of Wireguard on AWS with Ubuntu Server
 
 ### Installation
 ```
-git clone https://github.com/pprometey/wireguard_aws.git wireguard_aws
+git clone https://github.com/3guboff/wireguard-aws.git wireguard_aws
 cd wireguard_aws
 sudo ./initial.sh
 ```
@@ -31,6 +31,3 @@ sudo ./reset.sh
 ```
 sudo ./remove.sh
 ```
-## Contributors  (alphabetically)
-- [Alexey Chernyavskiy](https://github.com/alexey-chernyavskiy)
-- [Max Kovgan](https://github.com/mvk)
