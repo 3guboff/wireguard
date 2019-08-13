@@ -5,7 +5,7 @@ Scripts automate the installation and use of Wireguard on AWS with Ubuntu Server
 
 ### Installation
 ```
-git clone https://github.com/3guboff/wireguard-aws.git wireguard_aws
+git clone https://github.com/3guboff/wireguard.git wireguard
 cd wireguard_aws
 sudo ./initial.sh
 ```
@@ -32,8 +32,9 @@ sudo ./reset.sh
 sudo ./remove.sh
 ```
 
-### Notes: Rule for Asus RT-AC87U-1540 with forwarding to other server (192.168.100.2)
+### Notes:
 ```
+Rule for Asus RT-AC87U-1540 with forwarding to other server (192.168.100.2):
 iptables -t nat -A VSERVER -i eth0 -p udp -m udp --dport 51820 -j DNAT --to-destination 192.168.100.2:51820
 ```
 
