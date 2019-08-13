@@ -31,3 +31,9 @@ sudo ./reset.sh
 ```
 sudo ./remove.sh
 ```
+
+### Notes: Rule for Asus RT-AC87U-1540 with forwarding to other server (192.168.100.2)
+```
+iptables -t nat -A VSERVER -i eth0 -p udp -m udp --dport 51820 -j DNAT --to-destination 192.168.100.2:51820
+```
+
