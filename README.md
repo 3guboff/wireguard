@@ -1,4 +1,4 @@
-# Install and use AWS-based Wireguard
+# Install and use Wireguard
 Scripts automate the installation and use of Wireguard on Ubuntu Server
 
 ## How use
